@@ -1,0 +1,27 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git/**/*",
+    ".tmp/**/*",
+    "node_modules/**/*",
+    "client/**/*",
+    "views/**/*",
+    ".nuxt/**/*",
+    ".editorconfig",
+    ".eslintignore",
+    ".eslintrc",
+    ".gitignore",
+    ".npmrc",
+    ".sailsrc",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
+  "watch": [
+    "api/**/*",
+    "config/**/*",
+    "nuxt.config.js"
+  ],
+  "verbose": true,
+  "ext": "js,json"
+}
