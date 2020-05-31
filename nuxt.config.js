@@ -4,6 +4,8 @@ module.exports = {
   mode: 'spa',
   srcDir: 'client/',
   head: {
+    title: 'Jok Surabaya',
+    titleTemplate: 'Jok Surabaya - %s',
     meta: [
       {charset: 'utf-8'},
       {
@@ -17,8 +19,18 @@ module.exports = {
   router: {
     middleware: []
   },
-  css: [],
-  plugins: [],
+  css: [
+    '@/assets/styles/app.scss'
+  ],
+  plugins: [
+    '@/plugins/utils',
+    '@/plugins/vuex-persistedstate',
+    '@/plugins/axios',
+    '@/plugins/vue-fragment',
+    '@/plugins/vuelidate',
+    '@/plugins/vue2-datepicker',
+    '@/plugins/vue-fontawesome',
+  ],
   modules: [
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt',
