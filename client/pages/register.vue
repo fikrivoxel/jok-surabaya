@@ -6,9 +6,7 @@
           Create Account
         </h3>
       </b-card-header>
-      <b-card-body>
-        
-      </b-card-body>
+      <b-card-body></b-card-body>
       <b-card-footer class="text-center">
         <b-link to="/login" class="small">
           Have an account? Go to login
